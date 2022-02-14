@@ -14,14 +14,17 @@ body {
 p {
     font-size:  15px;
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    
+    
+    font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .container{
   width: 100vw;
   height: 100vh;
   display: flex;
-
+flex-wrap: no-wrap;
   align-items: center;
   justify-content: center;
  
